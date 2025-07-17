@@ -60,7 +60,29 @@ public class Student {
 	public Student() {
 		super();
 	}
-	
+	public Student(String stuNum, String stuName, String stuSex, int stuAge,
+			String stuClass, String major, String department) {
+		super();
+		this.stuNum = stuNum;
+		this.stuName = stuName;
+		this.stuSex = stuSex;
+		this.stuAge = stuAge;
+		this.stuClass = stuClass;
+		this.major = major;
+		this.department = department;
+	}
+	public Student(int stuID, String stuNum, String stuName, String stuSex,
+			int stuAge, String stuClass, String major, String department) {
+		super();
+		this.stuID = stuID;
+		this.stuNum = stuNum;
+		this.stuName = stuName;
+		this.stuSex = stuSex;
+		this.stuAge = stuAge;
+		this.stuClass = stuClass;
+		this.major = major;
+		this.department = department;
+	}
 	
 
 	
